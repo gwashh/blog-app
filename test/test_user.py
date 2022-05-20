@@ -5,7 +5,7 @@ from app import db
 class UserModelTest(unittest.TestCase):
 
     def setUp(self):
-        self.new_user = User(username='roba',email='rjillo@59@gmail.com',password = 'access')
+        self.new_user = User(username='sugee',email='gwashh@69@gmail.com',password = 'access')
 
     def test_password_setter(self):
         self.assertTrue(self.new_user.password_hash is not None)
