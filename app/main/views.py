@@ -124,7 +124,7 @@ def delete(blog_id):
     Blog.delete_blog(blog)
     
     return redirect(url_for('.index',blog=blog,blogs=blogs,quotes = quotes))
-
+ 
 @main.route('/comments/<int:comment_id>/delete')
 @login_required
 def delete_comment(comment_id):
@@ -142,4 +142,3 @@ def delete_comment(comment_id):
 def subscribe():
        
     return render_template('subscribe.html')
-    
