@@ -8,7 +8,7 @@ from ..requests import get_quote
 
 @main.route('/')
 def index():
-    quotes = get_quote()
+    quotes = get_quote
     blogs = Blog.query.all()
 
     return render_template("index.html",blogs=blogs,quotes=quotes)
@@ -142,3 +142,4 @@ def delete_comment(comment_id):
 def subscribe():
        
     return render_template('subscribe.html')
+    
