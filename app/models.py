@@ -20,7 +20,7 @@ class User(db.Model,UserMixin):
     password_hash = db.Column(db.String(255))
     blogs = db.relationship('Blog',backref = 'blogs',lazy = "dynamic")
     comments = db.relationship('Comment',backref = 'comment',lazy = "dynamic")
-    
+     
 
     @property
     def password(self):
