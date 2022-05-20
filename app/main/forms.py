@@ -19,4 +19,4 @@ class BlogForm(FlaskForm):
 class CommentForm(FlaskForm):
     title = StringField('Comment Title', validators=[Required()])
     comment = TextAreaField('Write Comments...')
-    submit = SubmitField('submit')
+    submit = SubmitField('submit') 
