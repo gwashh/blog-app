@@ -5,7 +5,8 @@
 [perry](https://github.com/gwashh)
 
 #### Description
-This is a personal blogging web application that allows users to post and delete blogs. it also allows users to read and comment on blogs posted by other users. 
+This is a personal blogging web application that allows users to post and delete blogs. it also allows users to read and comment on blogs posted by other users. found in the master branch.
+
 
 #### Live Demo
 
